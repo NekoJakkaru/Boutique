@@ -1,25 +1,50 @@
-body, html {
+body,
+html {
   height: 100%; }
 
 header {
   background-color: #2E1B00;
   color: white;
   padding-bottom: 12rem; }
+  header ul li {
+    font-size: 1.8rem; }
+    header ul li a {
+      opacity: 0.5; }
+  header h2 {
+    font-size: 3rem;
+    font-weight: bold; }
+
+main h2 {
+  text-align: center;
+  padding: 3rem 0;
+  font-weight: lighter;
+  font-size: 3rem; }
 
 footer {
   background-color: #123C59;
   color: white; }
+  footer div {
+    justify-content: space-around; }
+  footer h3 {
+    padding: 4rem 0 1rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    opacity: 0.8; }
   footer ul {
-    padding-left: 5%; }
+    padding: 0; }
     footer ul li {
-      list-style-type: none; }
+      list-style-type: none;
+      padding-bottom: 0.8rem; }
+      footer ul li a {
+        opacity: 0.5; }
 
 a {
   color: white; }
   a:hover {
     text-decoration: none;
     font-weight: bolder;
-    color: white; }
+    color: white;
+    opacity: 1; }
 
 #tel {
   transform: rotate(90deg); }
@@ -28,18 +53,31 @@ a {
   background-color: #A0945E;
   border-radius: 0.4rem;
   padding: 1rem 2rem;
-  margin-top: 10rem; }
+  text-transform: uppercase;
+  font-weight: bolder; }
+
+#relou {
+  padding-bottom: 3rem; }
 
 #search {
   position: fixed;
   right: 1%;
   top: 1%; }
 
+.btn {
+  opacity: 0.5; }
+  .btn:hover {
+    opacity: 1; }
+
 h1 {
   padding-top: 8rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  font-size: 3rem; }
 
-h2:nth-child(2) {
-  color: purple; }
+h1,
+h2,
+h3 {
+  font-family: 'Noto Serif', serif;
+  font-weight: bolder; }
 
 /*# sourceMappingURL=style.css.map */
