@@ -1,0 +1,45 @@
+body, html {
+  height: 100%; }
+
+header {
+  background-color: #2E1B00;
+  color: white;
+  padding-bottom: 12rem; }
+
+footer {
+  background-color: #123C59;
+  color: white; }
+  footer ul {
+    padding-left: 5%; }
+    footer ul li {
+      list-style-type: none; }
+
+a {
+  color: white; }
+  a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white; }
+
+#tel {
+  transform: rotate(90deg); }
+
+#button {
+  background-color: #A0945E;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+  margin-top: 10rem; }
+
+#search {
+  position: fixed;
+  right: 1%;
+  top: 1%; }
+
+h1 {
+  padding-top: 8rem;
+  padding-bottom: 2rem; }
+
+h2:nth-child(2) {
+  color: purple; }
+
+/*# sourceMappingURL=style.css.map */
