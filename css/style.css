@@ -6,6 +6,14 @@ header {
   background-color: #2E1B00;
   color: white;
   padding-bottom: 12rem; }
+  header .navbar-toggler-icon {
+    color: white; }
+  header .navbar-toggler {
+    padding: 1rem 0; }
+  header h1 {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    font-size: 3rem; }
   header ul li {
     font-size: 1.8rem; }
     header ul li a {
@@ -15,30 +23,34 @@ header {
     font-weight: bold; }
 
 main {
-  padding: 5rem;
-  background-color: #cecece; }
+  padding: 5%;
+  background-color: #f0f0f0; }
   main h2 {
     text-align: center;
     padding: 3rem 0;
     font-weight: lighter;
     font-size: 3rem; }
-
-.card-body {
-  background-color: white; }
-
-.article {
-  border-radius: .3rem;
-  box-shadow: .5rem .5rem .5rem;
-  padding-bottom: 1rem; }
-  .article h4 {
-    padding: 1rem 0 0 1rem;
-    margin-bottom: 0; }
-  .article p {
-    padding-left: 1rem;
-    margin-bottom: 0; }
-
-img {
-  width: 100%; }
+  main .article {
+    margin: 0.8rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem grey;
+    padding-bottom: 1rem; }
+    main .article img {
+      width: 100%;
+      position: relative; }
+    main .article h5 {
+      padding: 1rem 0 0 1rem;
+      margin-bottom: 0;
+      font-weight: bolder; }
+    main .article p {
+      padding-left: 1rem;
+      margin-bottom: 0; }
+    main .article a {
+      padding-left: 1rem;
+      color: black; }
+      main .article a:hover {
+        color: black; }
 
 footer {
   background-color: #123C59;
@@ -46,12 +58,12 @@ footer {
   footer div {
     justify-content: space-around; }
   footer h3 {
-    padding: 4rem 0 1rem;
+    padding: 4rem 0 1rem 1rem;
     font-size: 1.5rem;
     font-weight: lighter;
     opacity: 0.8; }
   footer ul {
-    padding: 0; }
+    padding: 0 0 0 1rem; }
     footer ul li {
       list-style-type: none;
       padding-bottom: 0.8rem; }
@@ -65,6 +77,24 @@ a {
     font-weight: bolder;
     color: white;
     opacity: 1; }
+
+h1,
+h2,
+h3 {
+  font-family: 'Noto Serif', serif;
+  font-weight: bolder; }
+
+.soldOUT {
+  position: relative; }
+
+.polygon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-clip-path: polygon(100% 2%, 2% 100%, 0 100%, 0 98%, 98% 0, 100% 0);
+  clip-path: polygon(100% 2%, 2% 100%, 0 100%, 0 98%, 98% 0, 100% 0);
+  top: 0; }
 
 #tel {
   transform: rotate(90deg); }
@@ -84,27 +114,18 @@ a {
   right: 1%;
   top: 1%; }
 
+.BUY {
+  color: #a99264; }
+
+.SALE {
+  color: #ffd128; }
+
+.OUT {
+  color: #9996a0; }
+
 .btn {
   opacity: 0.5; }
   .btn:hover {
     opacity: 1; }
-
-h1 {
-  padding-top: 8rem;
-  padding-bottom: 2rem;
-  font-size: 3rem; }
-
-h1,
-h2,
-h3 {
-  font-family: 'Noto Serif', serif;
-  font-weight: bolder; }
-
-hr {
-  padding: 0;
-  margin: 0;
-  border: 10px solid green;
-  transform: rotate(-45deg);
-  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
