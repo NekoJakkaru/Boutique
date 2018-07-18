@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Panier</title>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+            <header class="text-center">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Catalog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Stores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0" id="search">
+                            <input class="form-control mr-sm-2 d-none" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </nav>
+
+
+                <h1>SUNDAYS</h1>
+            </header>
+            <div class="row no-gutters">
+            <div class="col-md-9 mt-3">
+                <main>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://picsum.photos/140/" alt="140x140">
+                        </div>
+                        <div class="col-8">
+                            <h4>Nom de l'article</h4>
+                            <p>PRIX : €</p>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div class="col-md-3">
+                <aside class="cart mt-3 mr-0 mb-3 ml-0 mr-md-2 ml-md-2">
+                    <div class="col">
+                        <h2 class="pt-2">TOTAL :</h2>
+                        <h3>TVA : €</h3>
+                        <h3>PRIX EN € : €</h3>
+                        <button class="mb-2 pb-1" type="button" name="button">PAYER MAINTENANT</button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-2">
+                    <h3>Quick links</h3>
+                    <ul>
+                        <li><a>About Us</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Carres</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"> @californiatheme</a></i>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-envelope"></i> support@smailservice.co</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-phone" id="tel"></i> +1 917 (123) 4567</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email...">
+
+                            </div>
+                            <div class="col-2">
+                                <button type="button" class="btn btn-outline-light">OK</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-pinterest-square"></i> Pinterest</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-vimeo"></i> Vimeo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/catalog_x10.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
